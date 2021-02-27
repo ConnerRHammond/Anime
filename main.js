@@ -1,4 +1,4 @@
-var animeList = ["AOT","FullMetalAlchemist","Black Clover","MyHeroAcademia","DemonSlayer","Naruto","DeathNote","REzero","Princess Mononoke","SpiritedAway"];
+var animeList = ["AOT","FullMetalAlchemist","Black Clover","MyHeroAcademia","DemonSlayer","Naruto","DeathNote","REzero","Princess Mononoke","SpiritedAway","howlsmovingcastle","boruto"];
 
 
 for( let i=0; i <animeList.length;++i){
@@ -23,7 +23,7 @@ for( let i=0; i <animeList.length;++i){
         img.className ='picture';
         h3.className ='rating';
         p.className = 'synopsis';
-        div2.className ='side'
+        div2.className ='side';
         div2.appendChild(h);
         div2.appendChild(h3);
         div2.appendChild(h4);
@@ -38,4 +38,3 @@ for( let i=0; i <animeList.length;++i){
     });
 
 }
-
